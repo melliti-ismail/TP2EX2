@@ -1,6 +1,5 @@
 # TP2EX2
 Ex2 , ISMAIL MELLITI , TP2
-
 class Courrier {
     {static} + double TARIF_DE_BASE = 0.5
     # boolean express
@@ -40,5 +39,3 @@ class BoiteCourrier {
 Courrier <|-- Lettre
 Courrier <|-- Colis
 BoiteCourrier "1" o-- "0..n" Courrier : contient >
-
-@enduml
